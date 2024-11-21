@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(236, 196, 127);
+    font-family: Verdana;
+  margin: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+.img-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 25px;
+    padding-bottom: 25px;
+    place-self: center;
+    column-gap: 75px;
+}
+img{
+    width: 150px;
+}
+
+footer{
+    background-color: darkkhaki;
+    border: 0;}
+
+.YT-link{
+    display: block;
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+   
+    
+}
+
+
+.text-wrapper{
+    padding-left: 15px;
+
+}
+
+.GIF{
+display: block;
+margin: 0 auto 0 auto;
+}
+
+.start-image{
+    width: 650px;
+    height: auto;
+    padding-bottom: 15px;
+    display: block;
+    margin: 0 auto 0 auto;
+    }
